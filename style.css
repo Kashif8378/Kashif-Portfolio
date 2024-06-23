@@ -61,7 +61,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: ("C: \Users\mohdk\Desktop\Personal Projects\Kashif-Portfolio\Photos\My_Passport_Size_Pic_31102023.jpg") no-repeat;
+    background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg") no-repeat;
     background-size: cover;
     /* Check again after the webpage is built*/
     background-position: right;
@@ -149,11 +149,10 @@ body {
 }
 
 .about-img img {
-    max-width: 630px;
-    width: 630px;
-    height: auto;
-    margin: 43px 43px;
-    border-radius: 4000%;
+    width: 430px;
+    height: 430px;
+    margin: 43px;
+    border-radius: 50%;
 }
 
 .about-text h2 {
