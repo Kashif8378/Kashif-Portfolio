@@ -184,7 +184,7 @@ section {
 
 .container1 {
     width: 500px;
-    height: 700px;
+    height: 800px;
     padding: 75px 90px;
     margin-left: 120px;
 }
@@ -273,6 +273,10 @@ section {
     width: 60%;
 }
 
+.progress-line.js-angular span {
+    width: 20%;
+}
+
 .progress-line span::after {
     position: absolute;
     padding: 1px 8px;
@@ -312,6 +316,10 @@ section {
 
 .progress-line.sql span::after {
     content: "60%";
+}
+
+.progress-line.js-angular span::after {
+    content: "20%";
 }
 
 .progress-line span::before {
